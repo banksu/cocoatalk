@@ -1,0 +1,24 @@
+.cover {
+  position: absolute;
+  z-index: 99;
+  background-color: gold;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: coverGone 3s ease-in-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes coverGone {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

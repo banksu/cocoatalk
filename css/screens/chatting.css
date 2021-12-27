@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.anotherBC {
+  background-color: hsl(203, 32%, 75%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 500px;
+}
+
+.chatting__bar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.chatting__boxTitle {
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+  padding: 10px 20px;
+}
+
+.chatting__boxTitle div i:nth-child(1) {
+  margin-right: 20px;
+}
+
+.chatting__boxTitle span {
+  margin-left: 60px;
+}
+
+.chatting__boxTime {
+  margin-top: 26px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.chatting__boxTime div {
+  background-color: rgb(145, 169, 184);
+  color: white;
+  width: 190px;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+img {
+  width: 52px;
+  height: 52px;
+  border-radius: 18px;
+}
+.Chatting__box {
+  padding: 0px 13px;
+}
+
+.Chatting__box__you,
+.Chatting__box__me,
+.yourMsg {
+  display: flex;
+}
+
+.Chatting__box__me {
+  margin-top: 23px;
+  justify-content: flex-end;
+}
+.Chatting__box__you div {
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 17px;
+  color: rgb(100, 100, 100);
+}
+
+.yourMsg div,
+.Chatting__box__me div {
+  background-color: white;
+  color: black;
+  font-size: 22px;
+  padding: 10px 10px;
+  margin-left: -5px;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.Chatting__box__me div {
+  background-color: gold;
+  color: black;
+  font-size: 22px;
+  padding: 10px 10px;
+  margin-left: 0px;
+  border-radius: 10px 0px 10px 10px;
+}
+
+.msgTime {
+  font-size: 14px;
+  margin: 30px 5px 0px 5px;
+}
+
+.inputNKb {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+}
+
+.keyBox {
+  height: 300px;
+  display: flax;
+  flex-direction: column;
+  padding: 10px 0px;
+  background-color: rgb(220, 223, 226);
+  margin-bottom: 5px;
+}
+
+.keyBox_,
+.keyBox__,
+.keyBox___,
+.keyBox____ {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.keyBox_ div,
+.keyBox__ div,
+.keyBox___ div,
+.keyBox____ div {
+  font-size: 30px;
+  margin-bottom: 18px;
+  width: 42px;
+  height: 58px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 14px;
+  box-shadow: 0px 2px 0px 0px rgb(128, 128, 128);
+}
+
+.keyBox__ {
+  padding: 0px 15px;
+}
+
+.keyBox___ {
+  justify-content: space-evenly;
+}
+
+.keyBox___ div:first-child,
+.keyBox____ div:nth-child(1),
+.keyBox____ div:nth-child(2),
+.keyBox____ div:last-child {
+  background-color: rgb(192, 199, 206);
+  margin-left: -5px;
+  width: 60px;
+  color: black;
+}
+.keyBox___ div:last-child {
+  background-color: rgb(192, 199, 206);
+  margin-right: -5px;
+  width: 60px;
+  color: black;
+}
+.keyBox____ {
+  justify-content: space-between;
+  margin: 0px 5px;
+}
+
+.keyBox____ div:nth-child(1) {
+  font-size: 23px;
+  padding-top: 18px;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.keyBox____ div:nth-child(4) {
+  width: 200px;
+  font-size: 24px;
+  padding: 16px;
+  margin-right: 5px;
+}
+.keyBox____ div:last-child {
+  width: 110px;
+  font-size: 23px;
+  padding: 17px;
+}
+
+.msgInput {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 23px;
+  padding-right: 14px;
+  align-items: center;
+  font-size: 35px;
+  color: rgb(180, 180, 206);
+  background-color: #fff;
+}
+
+.msgInput div {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  width: 410px;
+  height: 44px;
+  padding-left: 20px;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 20px;
+  font-size: 30px;
+}
+.msgInput div input {
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.boring {
+  background-color: gold;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  margin-top: 1px;
+  margin-left: 15px;
+}
+
+.wink {
+  margin-left: 22px;
+}
