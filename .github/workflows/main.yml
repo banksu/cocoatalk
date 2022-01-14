@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: app
-          path: https://banksu.github.io/cocoatalk/
+          path: app/build/outputs/apk/debug
